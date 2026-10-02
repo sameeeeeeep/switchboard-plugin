@@ -1,0 +1,12 @@
+{
+  "name": "switchboard",
+  "description": "Switchboard for Claude Code: the operator connector and skills for the Switchboard Mac app.",
+  "owner": { "name": "sameeeeeeep", "url": "https://github.com/sameeeeeeep/switchboard" },
+  "plugins": [
+    {
+      "name": "switchboard",
+      "source": "./",
+      "description": "One Switchboard connector and operator skills for Claude Code and Codex: tasks, notch, whiteboard, PIP, and wrapps."
+    }
+  ]
+}

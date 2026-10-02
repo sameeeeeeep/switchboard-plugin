@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "switchboard": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/connector/launch.sh"
+      ],
+      "env": {
+        "SWITCHBOARD_SB": "daemon"
+      }
+    }
+  }
+}
